@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Einfacher Blockly-Rechner</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Blockly Drawing Block</h1>
+    </header>
+    <main>
+        <div id="blocklyDiv" style="height: 400px; width: 100%;"></div>
+        <button id="runButton">Code ausführen</button>
+        <button id="clearBtn" class="button">Zeichenfeld leeren</button>
+        <!--<div id="outputDiv" class="output">Ergebnis: <span id="result">Noch kein Ergebnis</span></div>  -->
+        <!--<textarea id="codeArea" style="width: 600px; height: 150px;" readonly></textarea>-->
+
+    </main>
+ 
+    <!-- Blockly Bibliotheken -->
+    <script src="blockly.min.js"></script>       
+    <!-- Eigene Skripte -->
+    <script src="custom_blocks.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
